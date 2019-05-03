@@ -96,4 +96,10 @@ public class TbBrand {
     public void setLetter(String letter) {
         this.letter = letter;
     }
+
+	@Override
+	public String toString() {
+		return "TbBrand [id=" + id + ", name=" + name + ", image=" + image + ", letter=" + letter + "]";
+	}
+    
 }

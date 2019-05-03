@@ -53,4 +53,10 @@ public class TbCategoryBrand {
     public void setBrandId(Long brandId) {
         this.brandId = brandId;
     }
+
+	@Override
+	public String toString() {
+		return "TbCategoryBrand [categoryId=" + categoryId + ", brandId=" + brandId + "]";
+	}
+    
 }

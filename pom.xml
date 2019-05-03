@@ -106,5 +106,6 @@
 		<module>im-api-gateway</module>
 		<module>im-item</module>
 		<module>im-common</module>
+		<module>im-upload</module>
 	</modules>
 </project>
